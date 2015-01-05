@@ -7,7 +7,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 
-@Mod(modid = YouShallNotStack.modId, name = YouShallNotStack.modId,version = "1.0")
+@Mod(modid = YouShallNotStack.modId, name = YouShallNotStack.modId,version = "1.1")
 public class YouShallNotStack {
     public static final String modId = "YouShallNotStack";
     public static String[] rawData;

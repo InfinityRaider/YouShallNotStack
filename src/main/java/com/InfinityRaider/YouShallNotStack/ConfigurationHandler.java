@@ -9,7 +9,7 @@ public class ConfigurationHandler {
     private static String directory;
 
     public static void init(FMLPreInitializationEvent event) {
-        directory = event.getModConfigurationDirectory().toString()+'\\';
+        directory = event.getModConfigurationDirectory().toString();
         loadConfiguration();
     }
 
